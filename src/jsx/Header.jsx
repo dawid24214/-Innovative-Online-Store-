@@ -28,8 +28,9 @@ export const Header = () =>{
                         <li className='nav__element'>
                             <Link to='/Contact' className='nav__link'>Kontakt </Link>
                         </li>
-
-
+                        <li className='nav__element'>
+                            <Link to='/LoginForm' className='nav__link'>Logowanie</Link>
+                        </li>
                     </ul>
                 </nav>
 
