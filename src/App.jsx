@@ -6,6 +6,7 @@ import {HelpCenter} from './jsx/HelpCenter.jsx'
 import {Products} from './jsx/Products.jsx'
 import './App.css'
 import ReactDOM from "react-dom/client";
+import {LoginForm} from "./jsx/LoginForm.jsx";
 
 
 const Layout = () =>{
@@ -22,6 +23,7 @@ const Router = () =>{
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Layout/>}>
+                    <Route path='/LoginForm' element={<LoginForm/>}/>
                     <Route path='/contact' element={<Contact/>} />
                     <Route path='/HelpCenter' element={<HelpCenter/>} />
                     <Route path='/Products' element={<Products/>} />
