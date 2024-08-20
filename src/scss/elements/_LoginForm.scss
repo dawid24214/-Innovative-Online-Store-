@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh; /* Full viewport height */
-  background-color: #f0f0f0; /* Light background color */
+  background-color: #d9d8d8; /* Light background color */
 }
 
 .array__login {
@@ -49,7 +49,7 @@
 .array__login button {
   width: 100%;
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #f4597e;
   color: white;
   border: none;
   border-radius: 4px;
@@ -59,7 +59,7 @@
 }
 
 .array__login button:hover {
-  background-color: #45a049;
+  background-color: #e35c7e;
 }
 a{
   text-decoration: none;
